@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container-fluid">
+        <h1 class="display-3">Seja bem vindo!</h1>
+        <p>Essa é uma plataforma desenvolvida exclusivamente para atender nossos clientes. Esperamos que tenham uma ótima experiência e que consigam encontrar tudo o que estão procurando. </p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba Mais &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container text-center">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Fornecedores</h2>
+            <p>Aqui você pode conferir a nossa lista de fornecedores e todos os seus detatlhes.</p>
+            <img src="imagens/Fornecedores.jpg" class="rounded-circle" width="200" height="200" />
+            <div class="margin">
+                <p><a class="btn btn-secondary" asp-area="" asp-controller="Fornecedores" asp-action="Index">Fornecedores</a></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>Produtos</h2>
+            <p>Aqui você pode conferir a nossa lista de produtos e todos os seus detalhes. </p>
+            <img src="imagens/produtos.jpg" class="rounded-circle" width="200" height="200" />
+            <div class="margin">
+                <p><a class="btn btn-secondary" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a></p>
+            </div>
+        </div>
+        @*<div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>*@
+    </div>
+
+</div> <!-- /container -->
